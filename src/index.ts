@@ -1,21 +1,11 @@
-const port = 3000;
-
+import { middleware } from "#/middlewares/middlewares.js";
 import express from "express";
 
 const app = express();
+const port = process.env.PORT ?? "9001";
 
-function sayHello(something) {
-  console.log("something something something something something something something - ", something);
-}
-
-// sayHello(10);
-sayHello("Romas n");
-
-app.get("/", (req, res) => {
-  res.send("Hello world");
-  console.log("Response send");
-});
+app.get("/", middleware);
 
 app.listen(port, () => {
-  console.log(`The server is running on port http://localhost:${port}`);
+  console.log(`The server is running on port ${port}`);
 });
