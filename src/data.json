@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": "uniq-id-01",
+      "type": "admin",
+      "firstName": "Roman",
+      "lastName": "Hado",
+      "email": "hado.roman.ihorovych@gmail.com",
+      "password": "TestPassword_2025",
+      "createdAt": "2022-04-14 16:56:02 -0400",
+      "updatedAt": "2022-04-14 16:56:02 -0400"
+    },
+    {
+      "id": "uniq-id-01",
+      "type": "user",
+      "firstName": "Romanna",
+      "lastName": "Pristay",
+      "email": "hado.roman.ihorovych@gmail.com",
+      "password": "TestPassword_2025",
+      "createdAt": "2022-04-14 16:56:02 -0400",
+      "updatedAt": "2022-04-14 16:56:02 -0400"
+    }
+  ]
+}

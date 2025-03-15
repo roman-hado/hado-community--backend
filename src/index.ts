@@ -1,3 +1,4 @@
+import "express-async-errors";
 import { middleware } from "#/middlewares/middlewares.js";
 import express from "express";
 
